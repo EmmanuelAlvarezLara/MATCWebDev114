@@ -1,0 +1,46 @@
+/* Style the header */
+header {
+    background-color: rgb(134, 171, 161);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  article {
+   float: left; 
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    
+  }
+  
+  /* Clear floats after the columns */
+  section {
+    
+    content: "";
+   
+    clear: both;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: rgb(35, 55, 49);
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
